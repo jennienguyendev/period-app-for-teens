@@ -7,22 +7,25 @@ This is a friendly web application that provides accessible, fact-checked inform
 This project was created in October 2023 for the WWCode Hackathon for Social Good by **Team Bloody Warriors**.
 
 ## Team **Bloody Warriors** Members
-Aazeen
-Anastasia
-Jennie
-Nidhi
-Serena
-Terra
+* Aazeen
+* Anastasia
+* Jennie
+* Nidhi
+* Serena
+* Terra
+
+### Tech Stack
+* HTML & EJS
+* CSS & Bootstrap
+* JavaScript
+* Node.js
+* Express.js
+* MongoDB
+* For user authentication, we used Passage by 1Password.
 
 ## About the Application
-### Tech Stack
-HTML & EJS
-CSS & Bootstrap
-JavaScript
-Node.js
-Express.js
-MongoDB
 These are the main features of our application.
+
 ### Home Page / Dashboard
 Welcomes the user, and allows them to register or continue as guest.
 ### Learn
@@ -31,3 +34,5 @@ Features articles and resources about menstruation. Articles are written in acce
 Allows users to create and delete entries to track periods. Requires log in.
 ### Profile
 Users can log in using a passkey. We used 1password for our user authentication.
+### Credits
+All photos are from pexels.com. Cute uterus illustrations are from Canva (pro). Information cited is in individual articles under "sources".
