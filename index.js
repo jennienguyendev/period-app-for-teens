@@ -7,6 +7,7 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 const MongoStore = require('connect-mongo'); // store session to db
 const methodOverride = require('method-override'); // for put and delete
+const path = require('path');
 
 const connectDB = require('./config/db');
 
@@ -34,8 +35,9 @@ dotenv.config({ path: './config/config.env' }); // use this when the .env file i
 const PORT = process.env.PORT; // use the port defined in the .env file
 
 app.set('view engine', 'ejs'); // use ejs as the view engine
+app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: false })); // bodyparser to extra data from forms
-app.use(express.static('public')); // use public folder
+app.use(express.static(path.join(__dirname, 'public'))); // access public folder
 app.use(morgan('dev')); // user morgan to log requests
 
 // method override for PUT and DELETE
