@@ -4,8 +4,8 @@
   "description": "An app built to educate teens about menstruation, reduce stigma, and help teenagers keep track of their period.",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
