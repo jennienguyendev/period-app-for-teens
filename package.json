@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@passageidentity/passage-elements": "^1.14.0",
+    "@passageidentity/passage-elements": "^1.16.0",
     "@passageidentity/passage-node": "^2.6.0",
     "connect-mongo": "^5.1.0",
     "cors": "^2.8.5",
